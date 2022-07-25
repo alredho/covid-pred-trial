@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <div>
+        <h3 id="name">Here's your result {{name}}</h3>
+        {% if prediction == "Positive" %}
+        <p> You're Positive COVID-19</p>
+        <p> Drink meds and stays at home. If symptomps continue, further inspection at the nearest hospital advised </p>
+        {% elif prediction == "Negative" %}
+        <p> You're Negative COVID-19 </p>
+        <p> Keeps doing health protocol. For precise diagnosys visit nearest hospital </p>
+        {% else  %}
+        <p>There's something wrong with the system. Please contact the developer</p>
+        {% endif %}
+    </div>
+</body>
+<script>
+    //const namePassed = {{name}}
+    //const defName = document.getElementById('name')
+    //name.innerHTML = "Here's your result Mr/Mrs " + namePassed
+</script>
+</html>

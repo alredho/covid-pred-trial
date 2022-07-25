@@ -1,0 +1,36 @@
+body {
+    background-color: #000033;
+    font-family: sans-serif;
+}
+
+#content {
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+#get-started {
+    margin-top: 50px;
+    width: auto;
+    margin-bottom: 50px;
+
+}
+
+#content-main {
+    margin: 20px;
+}
+
+#form-container {
+    padding: 40px;
+    background-color: aqua;
+    width: auto;
+}
+
+#form-head {
+    background-color: blueviolet;
+    width: 90%;
+    height: 90%;
+}
+
+#form-get {
+    padding: 60px;
+}
