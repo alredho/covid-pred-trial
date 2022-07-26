@@ -8,4 +8,4 @@ Werkzeug>=2.0
 numpy>=1.23.0
 xgboost>=1.6.1
 pandas>=1.4.3
-sklearn>=1.1.1
+sklearn>=1.0.0
