@@ -1,0 +1,33 @@
+body {
+    background-image: url('../back2.png');
+    font-family: sans-serif;
+}
+
+#result{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.content {
+    padding: 20px;
+    margin:auto;
+}
+
+.content h3{
+    color: white;
+}
+
+.content p{
+    color: white;
+}
+
+#result-text{
+    color: crimson;
+}
+
+.card{
+    width: auto;
+}

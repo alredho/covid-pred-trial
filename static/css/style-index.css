@@ -1,0 +1,30 @@
+body {
+    background-image: url('../back2.png');
+    font-family: sans-serif;
+}
+
+.content {
+    padding: 20px;
+    margin:auto;
+}
+
+.card-header h1{
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
+
+#get-started {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#start-button {
+    margin: 20px;
+}
+
