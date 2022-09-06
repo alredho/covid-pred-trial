@@ -7,6 +7,8 @@ body {
     margin: 0;
     position: absolute;
     top: 50%;
+    left: 20%;
+    right: 20%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
